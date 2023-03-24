@@ -3,7 +3,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
-
+// this is the product_tag model that joins the product and tag models
 ProductTag.init(
   {
     id: {
